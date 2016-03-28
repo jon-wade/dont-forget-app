@@ -1,0 +1,24 @@
+body {
+    background-color: gray;
+    color: white;
+}
+
+* {
+    border: 1px solid red;
+}
+
+.main {
+    width: 60%;
+    margin: 0 auto;
+    background-color: black;
+}
+
+
+/* set up mobile width rules, up to iPhone 6+ */
+@media screen and (max-width: 425px) {
+
+    .main {
+        width: 100%;
+    }
+
+}
