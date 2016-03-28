@@ -1,16 +1,24 @@
+
+
 body {
     background-color: gray;
     color: white;
+    box-sizing: border-box;
 }
 
-* {
-    border: 1px solid red;
+/** {*/
+    /*border: 1px solid red;*/
+/*}*/
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 .main {
     width: 60%;
     margin: 0 auto;
-    background-color: rgba(66,59,59,1);
+    background-color: rgb(101, 94, 94);
 }
 
 .title h1, h2 {
@@ -19,24 +27,130 @@ body {
 
 .title h1 {
     font-size: 2.8em;
-    margin: 1em 0 0 0;
     font-weight: 800;
     font-family: "Lato", sans-serif;
+    margin: 0px;
+    padding-top: 1.5em;
 }
 
 .title h2 {
     font-size: 0.6em;
-    margin: 0.2em 0 0 0;
+    margin: 0.2em 0 1.5em 0;
     font-weight: 200;
     font-family: "Noto Serif", serif;
 }
 
+.input-box {
+    width: 65%;
+    height: 55px;
+    margin-top: 20px;
+    margin-left: 15%;
+    border-radius: 5px;
+    float: left;
+}
 
-/* set up mobile width rules, up to iPhone 6+ */
-@media screen and (max-width: 425px) {
+i.fa.fa-plus-circle {
+    font-size: 4em;
+    display: inline-block;
+    margin-top: 22px;
+    margin-left: 55px;
+    color: black;
+}
+
+.list {
+}
+
+
+/* iPhone6 portrait */
+
+@media screen and (max-width: 375px) {
+    .main {
+        width: 100%;
+    }
+
+    i.fa.fa-plus-circle {
+        margin-left: 10px;
+    }
+
+    .input-box {
+        margin-left: 8%;
+    }
+
+}
+
+/* iPhone6+ portrait */
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
 
     .main {
         width: 100%;
     }
+
+    .input-box {
+        width: 70%;
+        margin-left: 8%;
+
+    }
+
+    i.fa.fa-plus-circle {
+        margin-left: 10px;
+    }
+
+
+}
+
+/* iPhone6 landscape */
+
+@media screen and (min-width: 426px) and (max-width: 667px) {
+
+    .main {
+        width: 100%;
+    }
+
+    .input-box {
+        width: 70%;
+        margin-left: 8%;
+    }
+
+    i.fa.fa-plus-circle {
+        margin-left: 35px;
+    }
+
+
+}
+
+/* Tablet */
+
+@media screen and (min-width: 668px) and (max-width: 768px) {
+
+    .main {
+        width: 100%;
+    }
+
+    .input-box {
+        width: 70%;
+        margin-left: 8%;
+    }
+
+    i.fa.fa-plus-circle {
+        margin-left: 55px;
+    }
+
+
+}
+
+/* small laptop */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .input-box {
+        width: 65%;
+        margin-left: 8%;
+    }
+
+    i.fa.fa-plus-circle {
+        margin-left: 35px;
+    }
+
 
 }
