@@ -10,7 +10,25 @@ body {
 .main {
     width: 60%;
     margin: 0 auto;
-    background-color: black;
+    background-color: rgba(66,59,59,1);
+}
+
+.title h1, h2 {
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 2.8em;
+    margin: 1em 0 0 0;
+    font-weight: 800;
+    font-family: "Lato", sans-serif;
+}
+
+.title h2 {
+    font-size: 0.6em;
+    margin: 0.2em 0 0 0;
+    font-weight: 200;
+    font-family: "Noto Serif", serif;
 }
 
 
