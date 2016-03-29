@@ -15,6 +15,10 @@ a {
     text-decoration: none;
 }
 
+footer {
+    height: 75px;
+}
+
 .main {
     width: 60%;
     margin: 0 auto;
@@ -67,10 +71,32 @@ i.fa.fa-check-circle, i.fa.fa-minus-circle {
     color: black;
 }
 
+.item-purchased {
+    text-decoration: line-through;
+    color: #99CC33;
+}
+
+.remove-all {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+
+.remove-all p {
+    padding-top: 120px;
+    color: black;
+}
+
+.remove-all p span {
+    border: 1px black solid;
+    padding: 5px;
+    border-radius: 3px;
+}
+
 .list {
     display: block;
     /*border: 2px white dashed;*/
-    margin-top: 9em;
+    margin-top: 2em;
+    font-family: "Noto Serif", serif;
 }
 
 .list ul{
@@ -87,7 +113,7 @@ i.fa.fa-check-circle, i.fa.fa-minus-circle {
 }
 
 .list ul li:last-child {
-    /*border-bottom: 1px solid cornsilk;*/
+    border-bottom: 1px solid cornsilk;
     /*margin-bottom: 10%;*/
 }
 
