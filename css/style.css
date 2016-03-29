@@ -57,7 +57,38 @@ i.fa.fa-plus-circle {
     color: black;
 }
 
+i.fa.fa-check-circle, i.fa.fa-minus-circle {
+    display: block;
+    float:right;
+    position: relative;
+    top: -30px;
+    margin-top: -30px;
+    margin-right: 2%;
+    color: black;
+}
+
 .list {
+    display: block;
+    /*border: 2px white dashed;*/
+    margin-top: 9em;
+}
+
+.list ul{
+    padding-left: 0;
+    margin: 0px;
+}
+
+.list ul li {
+    border-top: 1px solid cornsilk;
+    list-style: none;
+    padding: 5%;
+    margin: 0% 5% 0% 5%;
+    font-size: 1.5rem;
+}
+
+.list ul li:last-child {
+    /*border-bottom: 1px solid cornsilk;*/
+    /*margin-bottom: 10%;*/
 }
 
 @media screen and (max-width: 667px) {
