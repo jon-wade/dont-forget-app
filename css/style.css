@@ -1,7 +1,7 @@
 
 
 body {
-    background-color: gray;
+    background-color: rgb(101, 94, 94);
     color: white;
     box-sizing: border-box;
 }
@@ -51,14 +51,17 @@ footer {
     margin-left: 12%;
     border-radius: 5px;
     float: left;
+    color: #1d1e21;
+    font-family: "Noto Serif", serif;
+    font-size: 1.5em;
 }
 
 i.fa.fa-plus-circle {
-    display: inline-block;
-    float:right;
-    margin-top: 22px;
-    margin-right: 12%;
+    display: block;
+    /*float:right;*/
+    margin-left: 75%;
     color: black;
+    padding-top:23px;
 }
 
 i.fa.fa-check-circle, i.fa.fa-minus-circle {
@@ -66,7 +69,7 @@ i.fa.fa-check-circle, i.fa.fa-minus-circle {
     float:right;
     position: relative;
     top: -30px;
-    margin-top: -30px;
+    margin-top: -35px;
     margin-right: 2%;
     color: black;
 }
@@ -79,17 +82,12 @@ i.fa.fa-check-circle, i.fa.fa-minus-circle {
 .remove-all {
     text-align: center;
     font-family: "Lato", sans-serif;
+    margin-top:20px;
 }
 
-.remove-all p {
-    padding-top: 120px;
+.remove-button {
     color: black;
-}
-
-.remove-all p span {
-    border: 1px black solid;
-    padding: 5px;
-    border-radius: 3px;
+    margin-top:10px;
 }
 
 .list {
@@ -110,6 +108,13 @@ i.fa.fa-check-circle, i.fa.fa-minus-circle {
     padding: 5%;
     margin: 0% 5% 0% 5%;
     font-size: 1.5rem;
+}
+
+.list ul li p {
+    width: 63%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .list ul li:last-child {
